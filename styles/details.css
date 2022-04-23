@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    color: white;
+    background-color:black;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appname a{
+    color: orange;
+    text-decoration: none;
+}
+
+
+.favourites{
+
+    margin-right: 20px;
+
+}
+.favourites :hover{
+    color: orangered;
+}
+.favourites button a{
+    text-decoration: none;
+    color: orange;
+}
+
+
+
+#data-container{
+  
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+  
+    #detail-container{
+        position: relative;
+        width: 70%;
+    }
+    
+    .detail-item{
+        padding: 20px;
+        width: 80%;
+    }
+    
+    #stats-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        width: 100%;
+    }
+    
+    #stat-names{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding-right: 20px;
+    }
+    
+    #stat-names span{
+        display: block;
+        padding: 15px;
+        font-weight: bold;
+    }
+    
+    #stat-bars{
+        width: 80%;
+    }
+    
+    .bar-container{
+        background-color: rgba(0, 0, 0, 0);
+        width: 60%;
+        padding: 5px;
+    }
+    
+    .bar{
+        background-color:orangered;
+        border-radius: 10px;
+        padding: 10px;
+        transition-duration: 600ms;
+    }
+    
+    #alert{
+        color: black;
+        position: absolute;
+        background-color: red;
+        top: 20px;
+        border-radius: 5px;
+        width: max-content;
+        text-align: center;
+        padding: 5px;
+        float: right;
+        right: 300px;
+        
+    }
